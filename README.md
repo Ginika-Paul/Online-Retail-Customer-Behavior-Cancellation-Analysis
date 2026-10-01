@@ -122,6 +122,6 @@ This project demonstrates an end-to-end data analytics workflow, from data clean
 
 The analysis shows that customer value and customer retention cannot be evaluated using customer counts alone. Repeat customers represent a smaller proportion of the customer base but contribute significantly more revenue, while also accounting for a large proportion of cancelled transactions. Examining cancellation rates by purchase frequency provides a deeper view of customer behaviour and highlights areas that require further investigation.
 
-##Project Files
+## Project Files
 - Python cleaning Script
 - Power BI dashboard
