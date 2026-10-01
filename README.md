@@ -50,25 +50,24 @@ This means that cancellation activity was overwhelmingly concentrated among repe
 However, cancellation volume alone does not tell us whether repeat customers are actually more likely to cancel. Repeat customers make more purchases, giving them more opportunities to generate cancelled transactions.
 
 ## For this reason, the analysis also examined cancellation rates based on customer purchase frequency.
-
 ## Cancellation Rate by Purchase Frequency
 
 Customers were grouped according to the number of purchases they made:
 
-1 purchase
-2 purchases
-3-5 purchases
-6-10 purchases
-11+ purchases
+- 1 purchase
+- 2 purchases
+- 3-5 purchases
+- 6-10 purchases
+- 11+ purchases
 
 The analysis showed that cancellation rates increased as purchase frequency increased.
 
 Purchase Frequency	Cancellation Rate
-1 purchase	4.22%
-2 purchases	12.00%
-3-5 purchases	14.80%
-6-10 purchases	17.79%
-11+ purchases	19.14%
+- 1 purchase	4.22%
+- 2 purchases	12.00%
+- 3-5 purchases	14.80%
+- 6-10 purchases	17.79%
+- 11+ purchases	19.14%
 
 Customers with one purchase had a cancellation rate of 4.22%, while customers with 11 or more purchases had the highest cancellation rate at 19.14%.
 This represents a substantial difference in cancellation behaviour across purchase-frequency groups.
@@ -92,30 +91,30 @@ Further analysis of monthly cancellation rates would help determine whether the 
 
 The analysis produced several key findings:
 
-One-time customers make up the majority of the customer base, representing approximately 62% of customers.
-Repeat customers generate substantially more revenue, contributing approximately £8.5M compared with £2.2M from one-time customers.
-Cancelled orders are heavily concentrated among repeat customers, with approximately 3.6K cancelled orders compared with approximately 0.2K from one-time customers.
-Cancellation rates increase with purchase frequency, rising from 4.22% among customers with one purchase to 19.14% among customers with 11+ purchases.
-Cancellation activity increased toward the end of the year, reaching 472 cancelled orders in December.
-Cancellation activity is concentrated among certain products, providing potential areas for further investigation.
+- One-time customers make up the majority of the customer base, representing approximately 62% of customers.
+- Repeat customers generate substantially more revenue, contributing approximately £8.5M compared with £2.2M from one-time customers.
+- Cancelled orders are heavily concentrated among repeat customers, with approximately 3.6K cancelled orders compared with approximately 0.2K from one-time customers.
+- Cancellation rates increase with purchase frequency, rising from 4.22% among customers with one purchase to 19.14% among customers with 11+ purchases.
+- Cancellation activity increased toward the end of the year, reaching 472 cancelled orders in December.
+- Cancellation activity is concentrated among certain products, providing potential areas for further investigation.
 
 ## Business Recommendations
 
 Based on the findings, the business should:
 
-Monitor cancellation rates among high-frequency customers rather than relying only on total cancellation counts.
-Investigate products with unusually high cancellation volumes.
-Examine the reasons behind cancellations among frequent and high-value customers.
-Monitor cancellation trends by country and customer segment.
-Compare monthly cancellation rates with total order volume to distinguish increased cancellations from increased sales activity.
-Develop strategies to retain one-time customers while also reducing cancellations among existing repeat customers.
+- Monitor cancellation rates among high-frequency customers rather than relying only on total cancellation counts.
+- Investigate products with unusually high cancellation volumes.
+- Examine the reasons behind cancellations among frequent and high-value customers.
+- Monitor cancellation trends by country and customer segment.
+- Compare monthly cancellation rates with total order volume to distinguish increased cancellations from increased sales activity.
+- Develop strategies to retain one-time customers while also reducing cancellations among existing repeat customers.
 
 ## Tools Used
-Python
-Pandas
-Microsoft Excel
-Power BI
-DAX
+- Python
+- Pandas
+- Microsoft Excel
+- Power BI
+- DAX
 
 ## Project Outcome
 
