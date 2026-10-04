@@ -71,3 +71,4 @@ Based on the empirical evidence, the business should deploy the following mitiga
 * **[Power BI Dashboard File]([./Ecom_Analysis_Dashboard.pbix](https://github.com/Ginika-Paul/Online-Retail-Customer-Behavior-Cancellation-Analysis/tree/main/power%20bi)):** Interactive `.pbix` framework featuring transactional tracking, dynamic segmentation panels, and automated KPI scorecards.
 * **[Dasboard Screenshots](https://github.com/Ginika-Paul/Online-Retail-Customer-Behavior-Cancellation-Analysis/tree/main/pic):**
   ![E-Commerce Business Intelligence Dashboard](./pic/pic_cancelatiom.png)
+   ![E-Commerce Business Intelligence Dashboard](./pic/Pic_analytic.png)
