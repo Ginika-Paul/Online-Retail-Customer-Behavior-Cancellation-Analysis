@@ -1,25 +1,25 @@
 # End-to-End E-Commerce Analytics: Customer Behavior & Cancellation Study
 
-## 📊 Executive Summary
+##  Executive Summary
 This end-to-end data analytics project investigates customer purchasing behavior, revenue structures, and order cancellation dynamics for a global online retail enterprise. 
 
 The core objective was to solve a specific operational puzzle: **Are repeat customers canceling more orders simply due to higher transaction volumes, or does their baseline cancellation probability scale upward as purchase frequency increases?**
 
-### 💡 Core Discoveries
+###  Core Discoveries
 * **The Revenue Engine:** Repeat buyers make up only **38% of the customer base** but generate **79.5% of total sales revenue** (£8.5M vs. £2.2M).
 * **The Retention Leak:** Order cancellation volumes are disproportionately concentrated among high-frequency customers.
 * **The Frequency Vector:** Cancellation rates scale exponentially based on user loyalty, climbing steadily from **4.22%** for single-purchase users to **19.14%** for power users (11+ purchases).
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 * **Data Engineering & Imputation:** Python, Pandas
 * **Data Warehousing & Structuring:** Microsoft Excel, SQL Server
 * **Business Intelligence & Data Modeling:** Power BI, DAX (Data Analysis Expressions)
 
 ---
 
-## 🏗️ Data Preparation Pipeline (Python & Pandas)
+##  Data Preparation Pipeline (Python & Pandas)
 Before visualization, the raw transactional dataset containing over **500,000 records** was programmatically cleaned using Python to ensure architectural integrity:
 * **Automated Imputation Logic:** Cleaned missing product records by programmatically cross-referencing and matching missing text fields using historical `StockCode` mappings.
 * **String Standardization:** Structuralized inconsistent, trailing, and mistyped product description values.
@@ -28,7 +28,7 @@ Before visualization, the raw transactional dataset containing over **500,000 re
 
 ---
 
-## 📈 Deep-Dive Analytical Findings
+##  Deep-Dive Analytical Findings
 
 ### 1. The Value Disparity (One-Time vs. Repeat Cohorts)
 The exploratory analysis identified **8,082 unique customer profiles** across the transactional lifecycle. While acquiring new traffic keeps total customer counts high, active repeat behaviors completely drive financial viability:
@@ -57,7 +57,7 @@ To determine if this was a natural byproduct of volume or a systemic breakdown, 
 
 ---
 
-## 🚀 Strategic Business Recommendations
+##  Strategic Business Recommendations
 
 Based on the empirical evidence, the business should deploy the following mitigation strategies:
 1. **Optimize High-Frequency Fulfillment:** Implement priority logistics processing or dedicated inventory allocations for the `11+ Purchase` customer tier to drive their 19.14% cancellation rate back down to industry baselines.
@@ -66,7 +66,7 @@ Based on the empirical evidence, the business should deploy the following mitiga
 
 ---
 
-## 📂 Project Structure & Deliverables
+##  Project Structure & Deliverables
 * **[Python Data Cleaning Script](./Python_Cleaning_Script.ipynb):** Comprehensive source code for structural cleaning, data imputation, and initial statistical validation via Pandas.
 * **[Power BI Dashboard File](./Ecom_Analysis_Dashboard.pbix):** Interactive `.pbix` framework featuring transactional tracking, dynamic segmentation panels, and automated KPI scorecards.
 *
