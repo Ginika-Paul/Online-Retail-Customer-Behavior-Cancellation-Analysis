@@ -68,5 +68,5 @@ Based on the empirical evidence, the business should deploy the following mitiga
 
 ##  Project Structure & Deliverables
 * **[Python Data Cleaning Script](https://github.com/Ginika-Paul/Online-Retail-Customer-Behavior-Cancellation-Analysis/tree/main/Python):** Comprehensive source code for structural cleaning, data imputation, and initial statistical validation via Pandas.
-* **[Power BI Dashboard File](./Ecom_Analysis_Dashboard.pbix):** Interactive `.pbix` framework featuring transactional tracking, dynamic segmentation panels, and automated KPI scorecards.
+* **[Power BI Dashboard File]([./Ecom_Analysis_Dashboard.pbix](https://github.com/Ginika-Paul/Online-Retail-Customer-Behavior-Cancellation-Analysis/tree/main/power%20bi)):** Interactive `.pbix` framework featuring transactional tracking, dynamic segmentation panels, and automated KPI scorecards.
 *
