@@ -1,4 +1,6 @@
 # End-to-End E-Commerce Analytics: Customer Behavior & Cancellation Study
+  ![E-Commerce Business Intelligence Dashboard](./pic/pic_cancelatiom.png)
+   ![E-Commerce Business Intelligence Dashboard](./pic/Pic_analytic.png)
 
 ##  Executive Summary
 This end-to-end data analytics project investigates customer purchasing behavior, revenue structures, and order cancellation dynamics for a global online retail enterprise. 
