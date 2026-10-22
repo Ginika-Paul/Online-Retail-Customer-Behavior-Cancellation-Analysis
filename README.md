@@ -8,9 +8,9 @@ This data analytics project investigates customer purchasing behavior, revenue s
 The core objective was to solve a specific operational puzzle: **Are repeat customers canceling more orders simply due to higher transaction volumes, or does their baseline cancellation probability scale upward as purchase frequency increases?**
 
 ###  Core Discoveries
-* **The Revenue:** Repeat buyers make up only **38% of the customer base** but generate **79.5% of total sales revenue** (£8.5M vs. £2.2M).
-* **The Retention Leak:** Order cancellation volumes are disproportionately concentrated among high-frequency customers.
-* **The Frequency Vector:** Cancellation rates scale exponentially based on user loyalty, climbing steadily from **4.22%** for single-purchase users to **19.14%** for power users (11+ purchases).
+* Repeat buyers make up only **38% of the customer base** but generate **79.5% of total sales revenue** (£8.5M vs. £2.2M).
+* Order cancellation volumes are disproportionately concentrated among high-frequency customers.
+* Cancellation rates scale exponentially based on user loyalty, climbing steadily from **4.22%** for single-purchase users to **19.14%** for power users (11+ purchases).
 
 ---
 
