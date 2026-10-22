@@ -52,7 +52,7 @@ The definitive upward trend proves that cancellation risk scales with loyalty. T
 
 ---
 
-##  Strategic Business Recommendations
+##  Business Recommendations
 
 Based on the empirical evidence, the business should deploy the following mitigation strategies:
 1. Implement priority logistics processing or dedicated inventory allocations for the `11+ Purchase` customer tier to drive their 19.14% cancellation rate back down to industry baselines.
