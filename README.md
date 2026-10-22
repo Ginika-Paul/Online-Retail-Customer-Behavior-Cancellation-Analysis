@@ -16,10 +16,10 @@ The core objective was to solve a specific operational puzzle: **Are repeat cust
 
 ##  Data Preparation  (Python & Pandas)
 Before visualization, the raw transactional dataset containing over **500,000 records** was programmatically cleaned using Python to ensure architectural integrity:
-* **Automated Imputation Logic:** Cleaned missing product records by programmatically cross-referencing and matching missing text fields using historical `StockCode` mappings.
-* **String Standardization:** Structuralized inconsistent, trailing, and mistyped product description values.
-* **cleaning:** Isolated canceled transactions by parsing invoice alphanumeric conventions to separate clean revenue rows from active reversals.
-* **Customer Segmentation:** Computed custom attributes and specialized cohort groupings to track user frequency buckets.
+* Cleaned missing product records by programmatically cross-referencing and matching missing text fields using historical `StockCode` mappings.
+* Structuralized inconsistent, trailing, and mistyped product description values.
+* Isolated canceled transactions by parsing invoice alphanumeric conventions to separate clean revenue rows from active reversals.
+* Computed custom attributes and specialized cohort groupings to track user frequency buckets.
 
 ---
 
