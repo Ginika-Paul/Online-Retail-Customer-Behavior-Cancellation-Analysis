@@ -1,4 +1,4 @@
-# End-to-End E-Commerce Analytics: Customer Behavior & Cancellation Study
+# Online Retail Customer Behaviour Cancellation Study
   ![E-Commerce Business Intelligence Dashboard](./pic/pic_cancelatiom.png)
    ![E-Commerce Business Intelligence Dashboard](./pic/Pic_analytic.png)
 
