@@ -28,8 +28,8 @@ Before visualization, the raw transactional dataset containing over **500,000 re
 ### 1. One-Time vs. Repeat 
 The exploratory analysis identified **8,082 unique customer profiles** across the transactional lifecycle. While acquiring new traffic keeps total customer counts high, active repeat behaviors completely drive financial viability:
 
-* **One-Time Buyers:** 62% of total customer base | **£2.2 Million** total revenue contribution.
-* **Repeat Buyers:** 38% of total customer base | **£8.5 Million** total revenue contribution.
+* One-Time Buyers are 62% of total customer base with £2.2 Million total revenue contribution.
+* Repeat Buyers are 38% of total customer base with £8.5 Million total revenue contribution.
 
 ### 2. Cancellation Volatility
 While repeat buyers keep the business alive, they also account for the highest overhead leaks, driving **3,600 individual cancellations** compared to only **200 cancellations** from one-time shoppers. 
@@ -47,17 +47,17 @@ To determine if this was a natural byproduct of volume or a systemic breakdown, 
 The definitive upward trend proves that cancellation risk scales with loyalty. This suggests that backend platform friction, delivery lag, or stock exhaustion issues disproportionately penalize the company’s most valuable accounts.
 
 ### 3. Product Analysis
-* **Product Risk Profiles:** Cancellation instances heavily cluster around specific high-volume standard units, including *Manual, Regency Cakestand 3 Tier, Postage, Jam Making Set With Jars*, and *Set of 3 Cake Tins Pantry Design*. 
-* **Q4 Seasonality:** Cancelled invoices tracked a dramatic upward trajectory toward the close of the calendar year, escalating from a baseline of **260 instances in January** to a peak of **472 instances in December** (coinciding with holiday logistics constraints).
+* Cancellation instances heavily cluster around specific high-volume standard units, including *Manual, Regency Cakestand 3 Tier, Postage, Jam Making Set With Jars*, and *Set of 3 Cake Tins Pantry Design*. 
+* Cancelled invoices tracked a dramatic upward trajectory toward the close of the calendar year, escalating from a baseline of **260 instances in January** to a peak of **472 instances in December** (coinciding with holiday logistics constraints).
 
 ---
 
 ##  Strategic Business Recommendations
 
 Based on the empirical evidence, the business should deploy the following mitigation strategies:
-1. **Optimize High-Frequency Fulfillment:** Implement priority logistics processing or dedicated inventory allocations for the `11+ Purchase` customer tier to drive their 19.14% cancellation rate back down to industry baselines.
-2. **Execute Root-Cause Audits on High-Risk SKUs:** Investigate inventory, description discrepancies, or quality issues for the top 5 high-volume canceled products (e.g., *Regency Cakestand*) to check for listing errors or systematic return reasons.
-3. **Seasonal Buffer Adjustments:** Scale supply chain capacity, server performance checking, and safety stock thresholds ahead of the Q4 holiday surge (November–December) to mitigate transaction drops during peak periods.
+1. Implement priority logistics processing or dedicated inventory allocations for the `11+ Purchase` customer tier to drive their 19.14% cancellation rate back down to industry baselines.
+2. Investigate inventory, description discrepancies, or quality issues for the top 5 high-volume canceled products (e.g., *Regency Cakestand*) to check for listing errors or systematic return reasons.
+3. Scale supply chain capacity, server performance checking, and safety stock thresholds ahead of the Q4 holiday surge (November–December) to mitigate transaction drops during peak periods.
 
 ---
 
