@@ -38,11 +38,11 @@ To determine if this was a natural byproduct of volume or a systemic breakdown, 
 
 | Purchase Frequency | Type of Customer | Cancellation Rate |
 | :--- | :--- | :--- |
-| **1 Purchase** | New/Trial customers | **4.22%** |
+| **1 Purchase** | New customers | **4.22%** |
 | **2 Purchases** | Returning customers | **12.00%** |
 | **3–5 Purchases** | Core Customers | **14.80%** |
 | **6–10 Purchases** | High-Value Advocates | **17.79%** |
-| **11+ Purchases** | Enterprise/Power Users | **19.14%** |
+| **11+ Purchases** | Enterprise customer | **19.14%** |
 
 The definitive upward trend proves that cancellation risk scales with loyalty. This suggests that backend platform friction, delivery lag, or stock exhaustion issues disproportionately penalize the company’s most valuable accounts.
 
