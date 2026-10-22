@@ -3,57 +3,50 @@
    ![E-Commerce Business Intelligence Dashboard](./pic/Pic_analytic.png)
 
 ##  Executive Summary
-This end-to-end data analytics project investigates customer purchasing behavior, revenue structures, and order cancellation dynamics for a global online retail enterprise. 
+This data analytics project investigates customer purchasing behavior, revenue structures, and order cancellation dynamics for a global online retail enterprise. 
 
 The core objective was to solve a specific operational puzzle: **Are repeat customers canceling more orders simply due to higher transaction volumes, or does their baseline cancellation probability scale upward as purchase frequency increases?**
 
 ###  Core Discoveries
-* **The Revenue Engine:** Repeat buyers make up only **38% of the customer base** but generate **79.5% of total sales revenue** (£8.5M vs. £2.2M).
+* **The Revenue:** Repeat buyers make up only **38% of the customer base** but generate **79.5% of total sales revenue** (£8.5M vs. £2.2M).
 * **The Retention Leak:** Order cancellation volumes are disproportionately concentrated among high-frequency customers.
 * **The Frequency Vector:** Cancellation rates scale exponentially based on user loyalty, climbing steadily from **4.22%** for single-purchase users to **19.14%** for power users (11+ purchases).
 
 ---
 
-##  Tech Stack & Architecture
-* **Data Engineering & Imputation:** Python, Pandas
-* **Data Warehousing & Structuring:** Microsoft Excel, SQL Server
-* **Business Intelligence & Data Modeling:** Power BI, DAX (Data Analysis Expressions)
-
----
-
-##  Data Preparation Pipeline (Python & Pandas)
+##  Data Preparation  (Python & Pandas)
 Before visualization, the raw transactional dataset containing over **500,000 records** was programmatically cleaned using Python to ensure architectural integrity:
 * **Automated Imputation Logic:** Cleaned missing product records by programmatically cross-referencing and matching missing text fields using historical `StockCode` mappings.
 * **String Standardization:** Structuralized inconsistent, trailing, and mistyped product description values.
-* **Feature Engineering:** Isolated canceled transactions by parsing invoice alphanumeric conventions to separate clean revenue rows from active reversals.
+* **cleaning:** Isolated canceled transactions by parsing invoice alphanumeric conventions to separate clean revenue rows from active reversals.
 * **Customer Segmentation:** Computed custom attributes and specialized cohort groupings to track user frequency buckets.
 
 ---
 
-##  Deep-Dive Analytical Findings
+##  Analytical Findings
 
-### 1. The Value Disparity (One-Time vs. Repeat Cohorts)
+### 1. One-Time vs. Repeat 
 The exploratory analysis identified **8,082 unique customer profiles** across the transactional lifecycle. While acquiring new traffic keeps total customer counts high, active repeat behaviors completely drive financial viability:
 
 * **One-Time Buyers:** 62% of total customer base | **£2.2 Million** total revenue contribution.
 * **Repeat Buyers:** 38% of total customer base | **£8.5 Million** total revenue contribution.
 
-### 2. The Loyalty Reversal (Cancellation Volatility)
+### 2. Cancellation Volatility
 While repeat buyers keep the business alive, they also account for the highest overhead leaks, driving **3,600 individual cancellations** compared to only **200 cancellations** from one-time shoppers. 
 
 To determine if this was a natural byproduct of volume or a systemic breakdown, transactions were segmented by frequency:
 
-| Purchase Frequency Bucket | Metric Baseline | Target Cancellation Rate |
+| Purchase Frequency | Type of Customer | Cancellation Rate |
 | :--- | :--- | :--- |
-| **1 Purchase** | New/Trial Users | **4.22%** |
-| **2 Purchases** | Returning Cohort | **12.00%** |
+| **1 Purchase** | New/Trial customers | **4.22%** |
+| **2 Purchases** | Returning customers | **12.00%** |
 | **3–5 Purchases** | Core Customers | **14.80%** |
 | **6–10 Purchases** | High-Value Advocates | **17.79%** |
 | **11+ Purchases** | Enterprise/Power Users | **19.14%** |
 
-**Analytical Vector:** The definitive upward trend proves that cancellation risk scales with loyalty. This suggests that backend platform friction, delivery lag, or stock exhaustion issues disproportionately penalize the company’s most valuable accounts.
+The definitive upward trend proves that cancellation risk scales with loyalty. This suggests that backend platform friction, delivery lag, or stock exhaustion issues disproportionately penalize the company’s most valuable accounts.
 
-### 3. Product & Seasonal Congestion Points
+### 3. Product Analysis
 * **Product Risk Profiles:** Cancellation instances heavily cluster around specific high-volume standard units, including *Manual, Regency Cakestand 3 Tier, Postage, Jam Making Set With Jars*, and *Set of 3 Cake Tins Pantry Design*. 
 * **Q4 Seasonality:** Cancelled invoices tracked a dramatic upward trajectory toward the close of the calendar year, escalating from a baseline of **260 instances in January** to a peak of **472 instances in December** (coinciding with holiday logistics constraints).
 
